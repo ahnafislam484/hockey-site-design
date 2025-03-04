@@ -11,10 +11,138 @@
       type="text/css"
     />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- icon cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
-    <button class="border-4 border-red-200 p-5 m-5">login</button>
-    <h5 class="text-5xl">labib</h5>
-    <button class="btn btn-active btn-error text-white">Error</button>
+    <!-- header swcton start hear  -->
+    <header class="md:w-3/4 mx-auto ">
+      <nav>
+        <div class="navbar">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-1 w-52 p-2 shadow"
+              >
+                <li><a>Home</a></li>
+                <li>
+                  <a>About</a>
+                </li>
+                <li><a>Pages</a></li>
+                <li><a>Blog</a></li>
+                <li><a>Contact</a></li>
+              </ul>
+            </div>
+            <a class="btn btn-ghost text-4xl font-bold"
+              >Hockey<span class="text-red-400">’</span>s</a
+            >
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+              <li class="text-[#FF4240] text-base hover:text-red-500">
+                <a>Home</a>
+              </li>
+              <li class="text-base hover:text-red-500">
+                <summary>About</summary>
+              </li>
+              <li class="text-base hover:text-red-500"><a>Pages</a></li>
+              <li class="text-base hover:text-red-500"><a>Blog</a></li>
+              <li class="text-base hover:text-red-500"><a>Contact</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end gap-1 md:gap-4 text-gray-500">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <a class="btn bg-[#FF4240] text-white">Get Ticket</a>
+          </div>
+        </div>
+      </nav>
+
+      <!-- hero section start hear  -->
+      <!-- parent div start -->
+      <div class="mt-5 px-4  md:mt-12 relative">
+        <div class="carousel w-full">
+          <!-- slide -1  -->
+          <div id="slide1" class="carousel-item relative w-full">
+            <img src="Images/1.png" class="w-full" />
+            <div
+              class="absolute bottom-2 left-32 md:bottom-5 md:left-4 gap-3 flex justify-between"
+            >
+              <a href="#slide3" class="btn btn-circle bg-slate-800 text-white"
+                >❮</a
+              >
+              <a href="#slide2" class="btn btn-circle bg-slate-800 text-white"
+                >❯</a
+              >
+            </div>
+          </div>
+          <!-- slide -2  -->
+          <div id="slide2" class="carousel-item relative w-full">
+            <img src="Images/4.png" class="w-full" />
+            <div
+              class="absolute flex justify-between bottom-2 left-32 md:bottom-5 md:left-4 gap-3 bg"
+            >
+              <a href="#slide1" class="btn btn-circle bg-slate-800 text-white"
+                >❮</a
+              >
+              <a href="#slide3" class="btn btn-circle bg-slate-800 text-white"
+                >❯</a
+              >
+            </div>
+          </div>
+          <!-- slide -3  -->
+          <div id="slide3" class="carousel-item relative w-full">
+            <img
+              src="https://img.daisyui.com/images/stock/photo-1414694762283-acccc27bca85.webp"
+              class="w-full"
+            />
+            <div
+              class="absolute flex justify-between bottom-2 left-32 md:bottom-5 md:left-4 gap-3"
+            >
+              <a href="#slide2" class="btn btn-circle bg-slate-800 text-white"
+                >❮</a
+              >
+              <a href="#slide1" class="btn btn-circle bg-slate-800 text-white"
+                >❯</a
+              >
+            </div>
+          </div>
+        </div>
+        <!-- water mark  -->
+        <div class="border-4 bg-[#131318] space-y-3 p-2 md:absolute md:right-6 md:bottom-3 rounded-lg lg:p-4 lg:right-10 lg:bottom-10">
+          <h4 class=" text-sm  md:text-xl lg:text-2xl font-semibold text-white">Meet all the heroes from the field</h4>
+          <p class="text-xs md:text-sm font-normal text-gray-400">Dit amet consectetur. Condimentum dignissim adipiscing <br>aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+        </div>
+      </div>
+      <!-- parent div end -->
+      <!-- hero section end  hear  -->
+    </header>
+    <!-- header section end hear  -->
+
+    <!-- main section start hear  -->
+    <main></main>
+    <!-- main section end hear  -->
   </body>
 </html>
