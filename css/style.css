@@ -1,0 +1,19 @@
+.bg-img{
+   background-image: url(../Images/2.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+
+}
+.bg-img-2{
+    background-image: url(../Images/3.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+}
+.bg-img-3{
+    background-image: url(../Images/4.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+}
